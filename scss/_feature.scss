@@ -1,0 +1,60 @@
+/*********************************************************
+Write any CSS styling rules for your custom question HERE.
+There is no need to create your own file called question.css
+Based on the CSS you write here, the question.css file will be generated
+automatically for you by webpack when you build the production version of your question by running yarn-prod.
+************************************************************/
+.my-custom-feature-heading {
+    padding: 1rem;
+    background-color: royalblue;
+    border-radius: 1rem 0 1rem 0;
+    color: white;
+    text-align: center;
+}
+
+.lrn-custom-strategy-popup {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px 0 25px 25px;
+    background-color: rgb(230,243,245);
+    transition: all 200ms ease-out;
+    transform: translateX(calc(100% - 70px)); /* Start off-screen to the right */
+}
+
+.lrn-custom-strategy-popup.open {
+    transform: translateX(0);
+}
+
+.lrn-custom-strategy-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgb(108,180,192);
+}
+
+.lrn-custom-strategy-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 4px solid rgb(108,180,192);
+}
+
+.lrn-custom-strategy-content {
+    padding: 20px;
+}
+
+.lrn-custom-strategy-toggle-button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+//rgb(108,180,192)

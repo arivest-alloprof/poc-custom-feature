@@ -1,0 +1,8 @@
+{
+    "type": "customfeature",
+    "teacher_avatar_url": "https://media.licdn.com/dms/image/v2/D4E03AQEd2WYInL-2kA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718243975444?e=2147483647&v=beta&t=4F_xWFMvq8_PPQBLcJpSG0qmk8rfJs6fxF_75wHCnag",
+    "title": "Utilise ta stratégie!",
+    "description": "Tu dois t'assurer que l'adjectif a le même genre et le même nombre que le nom noyau du GN.",
+    "js": "/dist/feature.js",
+    "css": "/dist/feature.css"
+}

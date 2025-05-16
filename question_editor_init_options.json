@@ -1,0 +1,53 @@
+{
+   "custom_feature_types": [
+      {
+         "custom_type": "strategyfeature",
+         "name": "Custom Feature Skeleton - Example",
+         "js": "/dist/feature.js",
+         "css": "/dist/feature.css",
+         "version": "v0.0.1",
+         "editor_layout": "/dist/authoring_custom_layout.html",
+         "editor_schema": {
+            "hidden_question": false,
+            "attributes": {
+               "teacher_avatar_url": {
+                  "name": "Teacher Avatar URL",
+                  "description": "This image will be display in the header of the strategy",
+                  "type": "string",
+                  "required": true,
+                  "default": "https://media.licdn.com/dms/image/v2/D4E03AQEd2WYInL-2kA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718243975444?e=2147483647&v=beta&t=4F_xWFMvq8_PPQBLcJpSG0qmk8rfJs6fxF_75wHCnag"
+               },
+               "title": {
+                  "name": "Title",
+                  "description": "Title displayed in the header of the strategy",
+                  "type": "string",
+                  "required": true,
+                  "default": ""
+               },
+               "description": {
+                  "name": "Description",
+                  "description": "Description displayed in the content of the strategy",
+                  "type": "editor",
+                  "required": true,
+                  "default": ""
+               }
+            }
+         }
+      }
+   ],
+   "question_type_templates": {
+      "strategyfeature": [
+         {
+            "name": "Stratégie",
+            "description": "Afficher la stratégie de l'enseignant",
+            "image": "/images/preview.png",
+            "defaults": {
+               "type": "strategyfeature",
+               "js": "/dist/feature.js",
+               "css": "/dist/feature.css",
+               "placeholder": "Stratégie"
+            }
+         }
+      ]
+   }
+}
